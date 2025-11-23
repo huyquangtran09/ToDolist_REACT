@@ -5,7 +5,6 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/ToDolist_REACT/",
   plugins: [react(), tailwindcss()],
   server: {
     port: 3000,
